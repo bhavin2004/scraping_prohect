@@ -13,6 +13,7 @@ def extract_data(file):
         book_desc = soup.find_all("p")[3].text.strip()
         #HIIII
         return [book_title, book_price, book_desc]
+    #asbdhiahd
 
 # Get all book files
 books_path_list = os.listdir("html_data1/")
