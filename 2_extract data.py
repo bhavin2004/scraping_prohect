@@ -3,6 +3,7 @@ import os
 from bs4 import BeautifulSoup
 from concurrent.futures import ThreadPoolExecutor
 
+
 # Extract book data
 def extract_data(file):
     with open(f"html_data/{file}", "r", encoding="utf-8") as f:
