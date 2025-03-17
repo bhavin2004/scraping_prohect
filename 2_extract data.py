@@ -11,7 +11,7 @@ def extract_data(file):
         book_title = soup.find("div", class_="product_main").h1.text.strip()
         book_price = soup.find("p", class_="price_color").text.strip()
         book_desc = soup.find_all("p")[3].text.strip()
-        #HIIII
+
         return [book_title, book_price, book_desc]
 
 # Get all book files
